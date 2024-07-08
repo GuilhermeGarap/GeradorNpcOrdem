@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 24%, rgba(63,9,121,1) 73%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 800px;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+h1, h2 {
+    color: #3f0979;
+}
+
+label, select, button {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3f0979;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #513371;
+}
+
+#npcResult {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    color: #3f0979;
+}
+
+th, td {
+    border: 1px solid #3b3f5c;
+    padding: 8px;
+}
+
+th {
+    background-color: #ffffff;
+    text-align: left;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+}
+
+select:disabled {
+    background-color: #2e2e38;
+    color: #ccc;
+}
+
+img {
+    width: "1";
+    height: "77";
+}
