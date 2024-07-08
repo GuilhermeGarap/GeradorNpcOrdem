@@ -80,9 +80,15 @@ img {
 }
 
 @media (max-width: 600px) {
+    body {
+        height: auto;
+    }
+    
     .container {
         padding: 10px;
-        max-height: none;
+        max-width: 100%;
+        max-height: 90vh;
+        overflow-y: auto;
         height: auto;
     }
 
