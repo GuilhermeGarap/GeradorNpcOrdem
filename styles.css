@@ -1,18 +1,16 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1b1b2f;
-    color: #fff;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 24%, rgba(63,9,121,1) 73%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
 }
 
 .container {
-    background-color: #162447;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -20,47 +18,40 @@ body {
     max-width: 800px;
     overflow-y: auto;
     max-height: 90vh;
-    width: 100%;
 }
 
 h1, h2 {
-    color: #e43f5a;
+    color: #3f0979;
 }
 
 label, select, button {
     margin: 10px 0;
     font-size: 18px;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #e43f5a;
+    background-color: #3f0979;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 button:hover {
-    background-color: #ff6f91;
+    background-color: #513371;
 }
 
 #npcResult {
     margin: 20px 0;
     font-size: 18px;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 table {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
-    color: #fff;
+    color: #3f0979;
 }
 
 th, td {
@@ -69,17 +60,23 @@ th, td {
 }
 
 th {
-    background-color: #3b3f5c;
+    background-color: #ffffff;
     text-align: left;
 }
 
 td {
     text-align: center;
+    font-weight: bold;
 }
 
 select:disabled {
-    background-color: #292931;
+    background-color: #2e2e38;
     color: #ccc;
+}
+
+img {
+    width: "1";
+    height: "77";
 }
 
 @media (max-width: 600px) {
@@ -100,5 +97,9 @@ select:disabled {
     table, th, td {
         font-size: 14px;
         padding: 5px;
+    }
+
+    .pericia-item {
+        width: calc(50% - 10px);
     }
 }
