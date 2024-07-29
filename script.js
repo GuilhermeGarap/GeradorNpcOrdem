@@ -11,8 +11,35 @@ const maleNames = [
     "Jorge", "Davi", "Vítor", "Roberto", "Arthur",
     "Mauro", "Arnoldo", "Saulo", "Henrique", "Breno",
     "Antenor", "Fabrício", "Renato", "Túlio", "Giovane",
-    "Aurélio", "Osmar"
+    "Aurélio", "Osmar", "Felipe", "Leonardo", "Rafael",
+    "Eduardo", "Tiago", "Antônio", "Ricardo", "Maurício",
+    "Fábio", "Márcio", "Otávio", "Bruno", "Paulo",
+    "Caio", "Félix", "Clemente", "Ismael", "Benício",
+    "Fidélis", "Rodolfo", "Cristiano", "Elias", "Fábio",
+    "Danilo", "André", "Eurico", "Orlando", "Ivan",
+    "Rogério", "Marcos", "Rodrigo", "Edson", "Frederico",
+    "Sandro", "Gustavo", "Leandro", "Rafael", "Cristóvão",
+    "Pablo", "Luciano", "Diego", "Alberto", "Alexandre",
+    "Amaro", "Américo", "Anselmo", "Arlindo", "Arnaldo",
+    "Baltasar", "Bartolomeu", "Brás", "Cândido", "Carmo",
+    "César", "Constâncio", "Cosme", "Demétrio", "Dinis",
+    "Domingos", "Dorival", "Efigênio", "Eloy", "Epaminondas",
+    "Epifânio", "Esdras", "Estanislau", "Evaristo", "Félix",
+    "Firmino", "Gaspar", "Geraldo", "Gilberto", "Gonçalo",
+    "Gregório", "Hermínio", "Horácio", "Humberto", "Januário",
+    "Jeremias", "Joaquim", "Júlio", "Lázaro", "Leopoldo",
+    "Lourenço", "Manuel", "Martinho", "Mateus", "Maurílio",
+    "Melquíades", "Miguel", "Moisés", "Nestor", "Norberto",
+    "Odilon", "Orestes", "Orlando", "Osório", "Otávio",
+    "Pascoal", "Patrício", "Paulo", "Pedro", "Policarpo",
+    "Raimundo", "Raul", "Remígio", "Ricardo", "Rodrigo",
+    "Salvador", "Sebastião", "Serafim", "Sílvio", "Tarcísio",
+    "Teófilo", "Tibério", "Tomé", "Valdemar", "Valentim",
+    "Venceslau", "Vicente", "Viriato", "Virgílio", "Vítor",
+    "Xavier", "Zacarias"
 ];
+
+
 
 const femaleNames = [
     "Maria", "Ana", "Clara", "Beatriz", "Julia",
@@ -27,8 +54,41 @@ const femaleNames = [
     "Liana", "Elisandra", "Julieta", "Mônica", "Andressa",
     "Júlia", "Alessandra", "Carina", "Vivian", "Natália",
     "Lavínia", "Catarina", "Ingrid", "Luísa", "Érica",
-    "Cordelia", "Daniela", "Larissa", "Luna"
+    "Cordelia", "Daniela", "Larissa", "Luna",
+    "Verônica", "Estela", "Patrícia", "Noemi", "Cristina",
+    "Regina", "Eliane", "Bianca", "Viviane", "Raquel",
+    "Tâmara", "Lúcia", "Carla", "Margarida", "Marina",
+    "Sônia", "Edite", "Rosana", "Suzana", "Aline",
+    "Débora", "Marta", "Antônia", "Valéria", "Mônica",
+    "Teresa", "Carolina", "Gabrielle", "Renata", "Marília",
+    "Simone", "Veridiana", "Vera", "Esther", "Tatiana",
+    "Janaina", "Fabiana", "Tânia", "Abigail", "Agnes",
+    "Aida", "Albertina", "Alcina", "Alda", "Alexandra",
+    "Amélia", "Amparo", "Anabela", "Andréia", "Anita",
+    "Ariadne", "Armanda", "Arminda", "Augusta", "Aurora",
+    "Bárbara", "Bernardete", "Bernardina", "Camila", "Candida",
+    "Carlota", "Carminda", "Catarina", "Celeste", "Cesaltina",
+    "Cíntia", "Clarice", "Constança", "Cristina", "Dalila",
+    "Delfina", "Dionísia", "Doroteia", "Eduarda", "Elisabete",
+    "Eliza", "Emília", "Ermelinda", "Estela", "Eulália",
+    "Eurídice", "Eva", "Felisbela", "Fernanda", "Filipa",
+    "Flávia", "Francisca", "Genoveva", "Gertrudes", "Gisela",
+    "Guiomar", "Heloísa", "Hermínia", "Hilda", "Idalina",
+    "Ilda", "Inês", "Irene", "Irina", "Isaura",
+    "Ivone", "Joana", "Josefina", "Júlia", "Julieta",
+    "Lara", "Laura", "Leonor", "Lídia", "Lina",
+    "Linda", "Lisandra", "Luzia", "Madalena", "Manuela",
+    "Margarida", "Mariana", "Marta", "Matilde", "Mônica",
+    "Natália", "Nicole", "Odete", "Olívia", "Patrícia",
+    "Paula", "Piedade", "Pilar", "Quintina", "Quitéria",
+    "Rafaela", "Regina", "Rita", "Rosa", "Rosália",
+    "Salomé", "Sara", "Sebastiana", "Silvina", "Sofia",
+    "Susana", "Tânia", "Tatiana", "Teodora", "Teresa",
+    "Valentina", "Vanda", "Vera", "Virgínia", "Vitória",
+    "Xénia", "Zélia"
 ];
+
+
 
 const surnames = [
     "Silva", "Souza", "Oliveira", "Pereira", "Costa",
@@ -39,8 +99,28 @@ const surnames = [
     "Castro", "Cavalcanti", "Dias", "Campos", "Guimarães",
     "Vieira", "Farias", "Duarte", "Andrade", "Monteiro",
     "Santana", "Nunes", "Machado", "Lopes", "Batista",
-    "Coelho", "Ferreira", "Ramos", "Rezende", "Figueiredo"
+    "Coelho", "Ferreira", "Ramos", "Rezende", "Figueiredo",
+    "Amaral", "Campos", "Pacheco", "Peixoto", "Sales",
+    "Santiago", "Vasconcelos", "Xavier", "Beltrão", "Sampaio",
+    "Silveira", "Nogueira", "Cunha", "Porto", "Moraes",
+    "Miranda", "Mendes", "Ferraz", "Azevedo", "Cardoso",
+    "Macedo", "Pedrosa", "Trindade", "Barbosa", "Braga",
+    "Carneiro", "Carneiro", "Monteiro", "Neves", "Queiroz",
+    "Santana", "Santos", "Siqueira", "Soares", "Tavares",
+    "Torres", "Vieira", "Vilas", "Barreto", "Borges",
+    "Camargo", "Coutinho", "Drumond", "Estrela", "Farias",
+    "Feliciano", "Fonseca", "Garcia", "Henrique", "Leite",
+    "Mendes", "Paiva", "Prado", "Ramalho", "Rezende",
+    "Salvador", "Seixas", "Alves", "Bezerra", "Cabrera",
+    "Chaves", "Corrêa", "Dantas", "Esteves", "Guedes",
+    "Lacerda", "Lemos", "Macedo", "Magalhães", "Maia",
+    "Menezes", "Nascimento", "Nogueira", "Novaes", "Passos",
+    "Pereira", "Pinto", "Pontes", "Sá", "Saraiva",
+    "Silva", "Soares", "Souza", "Teles", "Vargas",
+    "Viana", "Vieira", "Xavier", "Zamora", "Zanella",
+    "Ziegler"
 ];
+
 
 function getRandomElement(array) {
     return array[Math.floor(Math.random() * array.length)];
